@@ -1,0 +1,89 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px;
+    }
+
+       body {
+      flex: 1;
+      background: url("https://t3.ftcdn.net/jpg/09/22/01/20/360_F_922012043_DQe3SsAg0RC5IyjhkSOVpO0IQdJT6kt3.jpg") no-repeat center center;
+      background-size: cover;
+
+    .form-container {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      padding: 30px;
+      width: 400px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #0056b3;
+    }
+
+    .form-container a {
+      color: #0056b3;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    textarea {
+      height: 80px;
+    }
+
+    .submit-btn {
+      background: #0056b3;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      margin-top: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      width: 100%;
+    }
+
+    .activities, .links {
+      margin-top: 30px;
+    }
+
+    .activities ul {
+      padding-left: 20px;
+    }
+
+    .links a {
+      display: block;
+      margin-top: 5px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 12px;
+      color: #777;
+    }
